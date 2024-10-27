@@ -1,7 +1,7 @@
 # Integration with gVisor TCP/IP stack
 
 Original attempt used a number of patches to netstack (before it was merged back into
-gvisor repo). I proted them to the new repo, but it is hard to maintain and never
+gvisor repo). I ported them to the new repo, but it is hard to maintain and never
 got the time to push them up.
 
 The patches were mainly to capture all and support 'transparent' mode for UDP.
